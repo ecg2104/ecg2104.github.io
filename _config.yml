@@ -215,3 +215,14 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+# required entries for Jeckyll Github pager per https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+
+safe: true
+source: ecg2104.github.io
+incremental: false
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
